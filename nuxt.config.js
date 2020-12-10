@@ -29,7 +29,11 @@ export default {
 
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [
-  ],
+    // Simple usage
+    '@nuxtjs/bootstrap-vue', 
+    // With options
+    ['@nuxtjs/bootstrap-vue', { css: false }],
+  ],                       
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
