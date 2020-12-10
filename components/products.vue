@@ -2,8 +2,8 @@
   <div class="d-flex-column" img-src= img-top id="card">
     <div class="d-flex-column px-2">
       <a>
-        <img class="w-100 p-0"  height="300" :src="`https://picsum.photos/600/300/?image=${item.id}`" alt="">
-        djddjddj
+        <img class="w-100 p-0 mb-2"  height="300" :src="`https://picsum.photos/600/300/?image=${item.id}`" alt="">
+        <div class="text-right">fasdasdsadsad</div>
       </a>
     </div>
     <p>tttt</p>
